@@ -2,17 +2,18 @@
     width: 25%;
     height: 100%;
     border-right:1px solid #DDDDDD;
-    margin-left: auto;
+    margin-left: 30px;
 }
 .amenities {
     width: 25%;
     height: 100%;
-    margin-left: auto;
+    margin-left: 30px;
 }
-h3 {
+.locations, .amenities h3 {
     font-weight: 600;
 }
-h4 {
+.locations .amenities h4 {
     font-size: 14px;
     font-weight: 400;
+    margin-top: 0;
 }

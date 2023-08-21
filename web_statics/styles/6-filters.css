@@ -1,0 +1,17 @@
+.popover {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    Background-color: #fafafa;
+    display: block;
+    visibility: hidden;
+    top: 100%;
+}
+.locations:hover .popover {
+    visibility: visible;
+    display: block;
+}
+.amenities:hover .popover {
+    visibility: visible;
+    display: block;
+}

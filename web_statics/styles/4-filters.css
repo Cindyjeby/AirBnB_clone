@@ -5,8 +5,6 @@
     border: 1px #DDDDDD;
     display: flex;
     border-radius: 4px;
-    justify-content: flex-end;
-    position: relative;
     align-items: center;
 }
 section.filters button {
@@ -19,4 +17,9 @@ section.filters button {
     opacity: 1;
     border-radius: 4px;
     margin: auto 30px;
+    position: absolute;
+    right: 250px
+}
+section.filters button:hover {
+    opacity: 0.9;
 }
